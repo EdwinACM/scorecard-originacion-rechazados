@@ -1,0 +1,13 @@
+{
+  "rechazo": 0.3,
+  "fuga": 0.0,
+  "factor_malos": 2.0,
+  "replicas": 300,
+  "bootstrap": 2000,
+  "rechazados_desarrollo": 210,
+  "tasa_malos_aprobados": 0.22857142857142856,
+  "tasa_malos_rechazados_REAL": 0.4666666666666667,
+  "pd_media_rechazados_segun_modelo_de_aprobados": 0.4601607571397256,
+  "tasa_malos_zona_rechazada_prueba": 0.5161290322580645,
+  "n_zona_rechazada_prueba": 93
+}

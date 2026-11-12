@@ -1,0 +1,11 @@
+# Datos originales descargados (se regeneran con paso0)
+datos/uci_german.zip
+datos/german.data
+
+# Resultados pesados (se regeneran con ejecutar_todo.py)
+resultados/replicas_*.csv
+
+__pycache__/
+.pytest_cache/
+.venv/
+.DS_Store

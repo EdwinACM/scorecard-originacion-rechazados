@@ -1,0 +1,49 @@
+{
+  "n_desarrollo": 700,
+  "n_prueba": 300,
+  "tasa_malos_desarrollo": 0.3,
+  "tasa_malos_prueba": 0.3,
+  "variables_en_modelo": [
+    "chequera",
+    "duracion",
+    "historial",
+    "proposito",
+    "monto",
+    "ahorros",
+    "empleo",
+    "tasa_cuota",
+    "propiedad",
+    "otros_planes",
+    "vivienda",
+    "trabajo"
+  ],
+  "escala": {
+    "puntos_base": 600,
+    "momios_base": "50 a 1",
+    "pdo": 20,
+    "factor": 28.85390081777927,
+    "offset": 487.1228762045055
+  },
+  "desarrollo": {
+    "auc": 0.8159669582118563,
+    "gini": 0.6319339164237125,
+    "ks": 0.5061224489795919
+  },
+  "prueba": {
+    "auc": 0.7847089947089947,
+    "gini": 0.5694179894179894,
+    "ks": 0.4619047619047619
+  },
+  "prueba_con_sensibles": {
+    "auc": 0.7871428571428571,
+    "gini": 0.5742857142857143,
+    "ks": 0.47301587301587306
+  },
+  "psi_desarrollo_vs_prueba": 0.012189373766627333,
+  "corte_propuesto": 527.0,
+  "aprobacion_prueba_en_corte": 0.44666666666666666,
+  "tasa_malos_aprobados_prueba": 0.11194029850746269,
+  "tasa_malos_rechazados_prueba": 0.45180722891566266,
+  "costo_prueba_en_corte": 166.0,
+  "costo_prueba_aprobar_todos": 450.0
+}
